@@ -1,0 +1,70 @@
+html{
+background-color:#003333;
+font-family: verdana;
+font-size: 13px;
+}
+body{
+color: #555555;
+line-height:28px;
+background-color:#669999;
+position:relative;
+width:100%;
+left:10%;
+min-width: 353px;
+max-width: 80%;
+border-radius:8px;
+}
+form{
+margin-left:2%;
+}
+header{
+text-align:center;}
+nav{
+font-weight: bold;
+background-color:#FF3333;
+}
+table, td, th {
+text-align:center;
+   border: 1.5px solid #027878;
+border-collapse: collapse;
+}
+
+th {
+    background-color: #F37338;
+    color: white;
+}
+
+.tlacidlo{
+-moz-user-select: none; -webkit-user-select: none; 
+ cursor:pointer;
+text-align:center;
+width:100px;
+background-color:#AAB6A2;
+border-radius:20px;
+transition: background-color 0.3s ease;
+margin: 5px 0px 5px 10px;
+}
+.tlacidlo:hover{
+background-color:#87907D;
+}
+a:link {
+display:inline-block;
+  color: #555555;
+text-decoration:none;
+transition: all 0.3s ease;
+}
+
+/* visited link */
+a:visited {
+    color: #555555;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
